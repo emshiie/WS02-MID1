@@ -1,0 +1,116 @@
+@font-face {
+    font-family: myfont;
+    src: url(../powerpuff_girls/powerpuff\ girls\ font.ttf);
+}
+
+html, body {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 12%, rgba(253,29,29,1) 95%);
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: myfont;
+    background-color: #FEFEFE;
+}
+
+header {
+    background-image: url("../img/blossom.w.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 90px;
+    text-align: center;
+    
+}
+
+nav img {
+    border-radius: 50%;
+    width: 150px;
+    border: 8px solid #fe4747;
+}
+
+nav h1 {
+    font-size: 38px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.blossom {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 27px;
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+    font-style: bold;
+    text-shadow: #000000;
+}
+
+h2 {
+    font-size: 27px;
+    color: #fa5f5f;
+    margin-top: 20px;
+    text-align: center;
+    font-style: bold;
+    text-shadow: #000000;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: Arial,sans-serif;
+    margin: 30px;
+    color: #050505;
+    font-style: bold;
+}
+
+ul {
+    font-size: 18px;
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    color: #000000;
+    font-style: bold;
+}
+
+img.blossom {
+    margin-top: 20px;
+    max-width: 70%; 
+    max-height: 50%;
+    display: block; 
+    margin: 0 auto; 
+}
+
+.image-section {
+    font-size: 24px;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: white;
+    color: radial-gradient(circle, rgba(255,255,255,1) 12%, rgba(253,29,29,1) 95%);
+}
+
+.footer-text {
+    margin: 0;
+    font-size: 1rem;
+}
