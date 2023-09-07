@@ -28,7 +28,7 @@ header {
 nav img {
     border-radius: 50%;
     width: 150px;
-    border: 8px solid #fe4747;
+    border: 8px solid #ff8e8e;
 }
 
 nav h1 {
@@ -130,12 +130,12 @@ circle{
 	height: 100px;
 	background-color: transparent;
 	border-radius: 50%;
-	border: 3px solid black;
-	margin: 10px;
+	border: 3px solid rgb(255, 216, 216);
+	margin: 40px;
 	overflow: hidden;
 	position: relative;
 	transition: transform 0.3s;
-	box-shadow: 1px 1px 8px 5px #000000;
+	box-shadow: 1px 1px 8px 5px red;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -145,7 +145,7 @@ circle{
 }
 
 .circle img {
-	width: 100%;
+	width: 105%;
 	height: 100%;
 	object-fit: cover;
 
@@ -153,7 +153,7 @@ circle{
 }
 
 .circle:hover {
-	transform: scale(1.1);
+	transform: scale(1.4);
 }
 .name {
 	display: none; 
@@ -185,7 +185,7 @@ circle{
     align-items: center;
     justify-content: center;
     opacity: 0; 
-    transition: opacity 0.3s ease; 
+    transition: opacity 0.5s ease; 
 }
 .circle:hover img {
     transform: scale(1.1); 
